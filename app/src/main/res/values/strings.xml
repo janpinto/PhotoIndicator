@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RN PhotoIndicator</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!-- Estilo de texto -->
+
+    <string-array name="idadegestacao">
+        <item>...</item>
+        <item>menor que 28 semanas</item>
+        <item>Entre 28 e 29 sem. e 6 dias</item>
+        <item>Entre 30 e 31 sem. e 6 dias</item>
+        <item>Entre 32 e 33 sem. e 6 dias</item>
+        <item>Entre 34 e 34 sem. e 6 dias</item>
+    </string-array>
+    <string-array name="idadegestacao2">
+        <item>...</item>
+        <item>Entre 35 e 37 sem. e 6 dias</item>
+        <item>Maior ou Igual a 38 semanas</item>
+    </string-array>
+</resources>

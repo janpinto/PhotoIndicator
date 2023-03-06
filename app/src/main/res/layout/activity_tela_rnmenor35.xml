@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradiente_fundo01"
+    tools:context=".TelaRNmenor35">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layousroolview"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="O Recém Nascido apresenta alguns dos fatores abaixo?"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/layoutprincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/arred_borda1"
+            android:orientation="horizontal"
+           >
+
+            <LinearLayout
+                android:id="@+id/layoutperguntas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="8dp">
+                <TextView
+                    android:id="@+id/txt_ask0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Icterícia visível (esclera e pele amareladas)"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_ask1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Albumina &lt; 2,5mg/dL"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_ask2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Aumento rápido da BT&gt;0,5mg/dL"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutrespostas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <Switch
+                    android:id="@+id/sw0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim" />
+
+                <Switch
+                    android:id="@+id/sw1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim" />
+
+                <Switch
+                    android:id="@+id/sw2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim" />
+            </LinearLayout>
+
+        </LinearLayout> <!--Fim Layout Principal 1-->
+        <LinearLayout
+            android:id="@+id/layoutprincipal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/arred_borda1"
+            android:orientation="horizontal"
+           >
+
+            <LinearLayout
+                android:id="@+id/layoutperguntas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="8dp">
+
+                <TextView
+                    android:id="@+id/txt_ask3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Recém Nascido instável com:"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_ask4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Ph &lt; 7,5"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_ask5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Ventilação Mecânica em uso"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_ask6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Hemocultura positiva"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_ask7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="VPP por apnéia ou bradicardia"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutrespostas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/sw3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim"
+                    android:visibility="invisible" />
+
+                <Switch
+                    android:id="@+id/sw4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim" />
+
+                <Switch
+                    android:id="@+id/sw5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim" />
+
+                <Switch
+                    android:id="@+id/sw6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim" />
+
+                <Switch
+                    android:id="@+id/sw7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:showText="true"
+                    android:splitTrack="true"
+                    android:textAlignment="textEnd"
+                    android:textOff="Não"
+                    android:textOn="Sim" />
+            </LinearLayout>
+
+        </LinearLayout><!--Fim Layout Principal 2-->
+        <LinearLayout
+            android:id="@+id/layoutresultado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/arred_borda1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_resul1"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Alto Risco para Doença Grave: "
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_resul2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="NÃO"
+                android:textAlignment="center"
+                android:textColor="@color/resp_grave_nao"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout><!--Fim Layout Resultado 1-->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Indicação para Fototerapia"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:id="@+id/layoutindicacao1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/arred_borda1"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Informe a Bilirrubina Total (mg/dL)*"
+                app:helperText="*usar ponto nos números decimais"
+                app:helperTextTextColor="@color/resp_grave_sim"
+                app:endIconMode="clear_text"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Idade Gestacional"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/spIG"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:inputType="none"
+                    android:text="..."
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout> <!--Fim Layout Principal 3-->
+        <LinearLayout
+            android:id="@+id/layoutresultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/arred_borda1"
+            android:orientation="horizontal"
+           >
+
+            <TextView
+                android:id="@+id/txt_resul3"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Indicação de Fototerapia: "
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_fototerapia"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="NÃO"
+                android:textAlignment="center"
+                android:textColor="@color/resp_grave_nao"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout><!--Fim Layout Resultado 2-->
+
+    </LinearLayout> <!--fim do layout do Scrollview-->
+
+
+
+
+</ScrollView>
